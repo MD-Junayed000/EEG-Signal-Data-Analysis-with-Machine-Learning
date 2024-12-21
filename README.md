@@ -16,8 +16,8 @@ Each sample represents brain activity captured over time, providing insights int
 
 **1. Signal Processing**
 
-•	**Continuous Wavelet Transform (CWT):** Used to examine time-frequency characteristics of EEG signals. The CWT allowed us to analyze the signal variations over different frequency bands and time intervals.
-•	**Fourier Transform (FFT):** Applied to convert the time-domain EEG signals into the frequency domain, giving a spectral view of the data.
+•		Analyze EEG data for classifying subjects into alcoholic and control groups according to subject experimented each electrode channel sensor value; sampled at 256 Hz.
+
 
 **2. Visualization**
 
