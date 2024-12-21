@@ -21,7 +21,7 @@ Each sample represents brain activity captured over time, providing insights int
 
 **2. Visualization**
 
-•	Plotted the original EEG signals, wavelet scaleograms, and Fourier Transform power spectra to gain insights into how EEG patterns differ between alcoholic and control subjects.
+•	Plotted the original EEG signals and Filtered EEG signal with Butterworth Bandpass filter to remove noise and artifacts in-order to gain insights into how EEG patterns differ between alcoholic and control subjects.
 
 **3. Machine Learning**
 
@@ -32,15 +32,15 @@ Each sample represents brain activity captured over time, providing insights int
 **⚙️ Technologies Used**
 
 •	Python (NumPy, pandas, Matplotlib, PyWavelets, SciPy, Scikit-learn)
-•	Signal Processing Techniques (CWT, FFT)
+•	Signal Filtering Technique 
 •	Machine Learning (KNN, SVM)
 
 **📝 Results**
 
 **•	KNN Classifier:** Achieved a high classification accuracy (~99%), with strong recall and precision for both groups.
 **•	SVM Classifier:** Further improved classification, achieving reliable separation of alcoholic and control subjects based on EEG features.
-**📊 Visualizations**
-•	EEG signals, wavelet scaleograms, and Fourier Transform power spectra are all included in the project to aid in understanding how EEG patterns relate to alcoholism.
 
-•	EEG signals, wavelet scaleograms, and Fourier Transform power spectra are all included in the project to aid in understanding how EEG patterns relate to alcoholism.
+**📊 Visualizations**
+•	Filtered EEG signals to aid in understanding how EEG patterns relate to alcoholism.
+
 
